@@ -1,5 +1,10 @@
 # Changelog
 
+## \[0.4.4]
+
+- [`9df5eca`](https://www.github.com/tauri-apps/tauri-action/commit/9df5eca322fa3298954fb973a68c65cf2b48aebd) Fixed an issue where the distPath config was not applied after initializing the tauri project.
+- [`d9623e3`](https://www.github.com/tauri-apps/tauri-action/commit/d9623e36cbe6b2668d8abc98677e9113a6ace705)([#556](https://www.github.com/tauri-apps/tauri-action/pull/556)) Fixes the artifacts search path when a custom `--profile` is used.
+
 ## \[0.4.3]
 
 - [`c87af54`](https://www.github.com/tauri-apps/tauri-action/commit/c87af545bb34bb0b5d981811497ede8d99f5ebd8)([#502](https://www.github.com/tauri-apps/tauri-action/pull/502)) While looking for the tauri directory the action will now respect all gitignore files and not just the one in the root dir.
